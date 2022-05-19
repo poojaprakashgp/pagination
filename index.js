@@ -27,10 +27,10 @@ for (let i = 0; i < totalpages; i++) {
 if (startindex > totalitems || endindex > totalitems) {
     console.log("error")
 } else if (startindex == endindex) { console.log("no items found") } else {
-    for (let i = startindex; i < endindex; i++) {
-        console.log(arr[i]);
-        document.getElementsByClassName('pageContent').innerHTML = Object.keys(arr[i]);
-    }
+   // for (let i = startindex; i < endindex; i++) {
+   //    console.log(arr[i]);
+   //     document.getElementsByClassName('pageContent').innerHTML = Object.keys(arr[i]);
+   // }
 }
 console.log("document.getElementsByClassName('pageContent').innerHTML", document.getElementsByClassName('pageContent').innerHTML);
 
